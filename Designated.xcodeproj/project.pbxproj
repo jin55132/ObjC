@@ -10,6 +10,8 @@
 		A446C1DD169DB2200059E57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A446C1DC169DB2200059E57A /* Foundation.framework */; };
 		A446C1E0169DB2200059E57A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A446C1DF169DB2200059E57A /* main.m */; };
 		A446C1E4169DB2200059E57A /* Designated.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A446C1E3169DB2200059E57A /* Designated.1 */; };
+		A446C1EC169DB30B0059E57A /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = A446C1EB169DB30B0059E57A /* Parent.m */; };
+		A446C1EF169DBB2E0059E57A /* SecondHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = A446C1EE169DBB2E0059E57A /* SecondHuman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		A446C1DF169DB2200059E57A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A446C1E2169DB2200059E57A /* Designated-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Designated-Prefix.pch"; sourceTree = "<group>"; };
 		A446C1E3169DB2200059E57A /* Designated.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Designated.1; sourceTree = "<group>"; };
+		A446C1EA169DB30B0059E57A /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		A446C1EB169DB30B0059E57A /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		A446C1ED169DBB2E0059E57A /* SecondHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHuman.h; sourceTree = "<group>"; };
+		A446C1EE169DBB2E0059E57A /* SecondHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondHuman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				A446C1DF169DB2200059E57A /* main.m */,
+				A446C1ED169DBB2E0059E57A /* SecondHuman.h */,
+				A446C1EE169DBB2E0059E57A /* SecondHuman.m */,
+				A446C1EA169DB30B0059E57A /* Parent.h */,
+				A446C1EB169DB30B0059E57A /* Parent.m */,
 				A446C1E3169DB2200059E57A /* Designated.1 */,
 				A446C1E1169DB2200059E57A /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A446C1E0169DB2200059E57A /* main.m in Sources */,
+				A446C1EC169DB30B0059E57A /* Parent.m in Sources */,
+				A446C1EF169DBB2E0059E57A /* SecondHuman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
